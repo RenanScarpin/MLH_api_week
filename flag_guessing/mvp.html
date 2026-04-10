@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flag Guessing Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      width: 280px;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    input {
+      padding: 10px;
+      width: 260px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 14px;
+      font-size: 16px;
+      margin: 8px 4px;
+      cursor: pointer;
+    }
+
+    #result {
+      margin-top: 16px;
+      font-weight: bold;
+      min-height: 24px;
+    }
+
+    #score {
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flag Guessing Game</h1>
+  <p>Type the country name that matches the flag.</p>
+
+  <img id="flag" src="" alt="Country flag" />
+  <div>
+    <input id="answer" type="text" placeholder="Enter country name" />
+  </div>
+  <div>
+    <button id="submitBtn">Submit</button>
+    <button id="nextBtn">Next Flag</button>
+  </div>
+
+  <div id="result"></div>
+  <div id="score">Score: 0 / 0</div>
+
+  <script>
+    const API_URL = "https://restcountries.com/v3.1/all?fields=name,flags,altSpellings";
+
+    let countries = [];
+    let currentCountry = null;
+    let score = 0;
+    let rounds = 0;
+
+    async function loadCountries() {
+      try {
+        const res = await fetch(API_URL);
+        if (!res.ok) {
+          throw new Error("Failed to fetch country data");
+        }
+
+        const data = await res.json();
+
+        // Keep only countries with a common name and png flag
+        countries = data.filter(country =>
+          country.name?.common &&
+          country.flags?.png
+        );
+
+        showRandomCountry();
+      } catch (error) {
+        document.getElementById("result").textContent =
+          "Could not load country data.";
+        console.error(error);
+      }
+    }
+
+    function normalize(text) {
+      return text
+        .toLowerCase()
+        .trim()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9\s]/g, "")
+        .replace(/\s+/g, " ");
+    }
+
+    function showRandomCountry() {
+      if (!countries.length) return;
+
+      const randomIndex = Math.floor(Math.random() * countries.length);
+      currentCountry = countries[randomIndex];
+
+      document.getElementById("flag").src = currentCountry.flags.png;
+      document.getElementById("flag").alt = "Guess this country's flag";
+      document.getElementById("answer").value = "";
+      document.getElementById("result").textContent = "";
+      document.getElementById("answer").focus();
+    }
+
+    function checkAnswer() {
+      if (!currentCountry) return;
+
+      const userAnswer = normalize(document.getElementById("answer").value);
+
+      const acceptedAnswers = [
+        currentCountry.name.common,
+        currentCountry.name.official,
+        ...(currentCountry.altSpellings || [])
+      ]
+        .filter(Boolean)
+        .map(normalize);
+
+      rounds++;
+
+      if (acceptedAnswers.includes(userAnswer)) {
+        score++;
+        document.getElementById("result").textContent = "Correct!";
+      } else {
+        document.getElementById("result").textContent =
+          `Wrong. Correct answer: ${currentCountry.name.common}`;
+      }
+
+      document.getElementById("score").textContent = `Score: ${score} / ${rounds}`;
+    }
+
+    document.getElementById("submitBtn").addEventListener("click", checkAnswer);
+    document.getElementById("nextBtn").addEventListener("click", showRandomCountry);
+
+    document.getElementById("answer").addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        checkAnswer();
+      }
+    });
+
+    loadCountries();
+  </script>
+</body>
+</html>
