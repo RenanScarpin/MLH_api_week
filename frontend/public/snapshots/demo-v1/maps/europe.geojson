@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "france",
+      "properties": { "targetId": "france", "entityQid": "Q142", "sovereignQid": "Q142" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-5,51],[2,51],[8,48],[7,43],[3,42],[-1,43],[-5,47],[-5,51]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "andorra",
+      "properties": { "targetId": "andorra", "entityQid": "Q228", "sovereignQid": "Q228" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.2,42.3],[1.9,42.3],[1.9,42.9],[1.2,42.9],[1.2,42.3]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "switzerland",
+      "properties": { "targetId": "switzerland", "entityQid": "Q39", "sovereignQid": "Q39" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[6,47.8],[10.5,47.8],[10.5,45.7],[6,45.7],[6,47.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "germany",
+      "properties": { "targetId": "germany", "entityQid": "Q183", "sovereignQid": "Q183" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[6,55],[15,55],[15,47.5],[10.5,47.5],[6,49],[6,55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "italy",
+      "properties": { "targetId": "italy", "entityQid": "Q38", "sovereignQid": "Q38" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[7,46.5],[13,46.5],[14,44],[16,42],[16,39],[18,38],[16,37],[13,40],[12,43],[9,44],[7,46.5]]]
+      }
+    }
+  ]
+}

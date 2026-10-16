@@ -1,0 +1,62 @@
+{
+  "macron-fixture": {
+    "id": "macron-fixture",
+    "path": "/snapshots/demo-v1/assets/images/macron.svg",
+    "commonsFilename": "Fixture only — not a Commons file",
+    "commonsPage": "https://commons.wikimedia.org/",
+    "sha1": "fixture-macron",
+    "attribution": {
+      "artist": null,
+      "credit": "Local fixture asset",
+      "attributionText": "Development fixture only",
+      "attributionRequired": false,
+      "licenseName": null,
+      "licenseUrl": null
+    }
+  },
+  "serrano-fixture": {
+    "id": "serrano-fixture",
+    "path": "/snapshots/demo-v1/assets/images/serrano.svg",
+    "commonsFilename": "Fixture only — not a Commons file",
+    "commonsPage": "https://commons.wikimedia.org/",
+    "sha1": "fixture-serrano",
+    "attribution": {
+      "artist": null,
+      "credit": "Local fixture asset",
+      "attributionText": "Development fixture only",
+      "attributionRequired": false,
+      "licenseName": null,
+      "licenseUrl": null
+    }
+  },
+  "steinmeier-fixture": {
+    "id": "steinmeier-fixture",
+    "path": "/snapshots/demo-v1/assets/images/steinmeier.svg",
+    "commonsFilename": "Fixture only — not a Commons file",
+    "commonsPage": "https://commons.wikimedia.org/",
+    "sha1": "fixture-steinmeier",
+    "attribution": {
+      "artist": null,
+      "credit": "Local fixture asset",
+      "attributionText": "Development fixture only",
+      "attributionRequired": false,
+      "licenseName": null,
+      "licenseUrl": null
+    }
+  },
+  "mattarella-fixture": {
+    "id": "mattarella-fixture",
+    "path": "/snapshots/demo-v1/assets/images/mattarella.svg",
+    "commonsFilename": "Fixture only — not a Commons file",
+    "commonsPage": "https://commons.wikimedia.org/",
+    "sha1": "fixture-mattarella",
+    "attribution": {
+      "artist": null,
+      "credit": "Local fixture asset",
+      "attributionText": "Development fixture only",
+      "attributionRequired": false,
+      "licenseName": null,
+      "licenseUrl": null
+    }
+  }
+}

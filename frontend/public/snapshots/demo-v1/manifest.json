@@ -1,0 +1,17 @@
+{
+  "snapshotId": "demo-v1",
+  "generatedAt": "2026-10-16T12:00:00Z",
+  "sources": {
+    "wikidataFetchedAt": "2026-10-16T12:00:00Z",
+    "commonsFetchedAt": "2026-10-16T12:00:00Z",
+    "naturalEarthVersion": "fixture-only"
+  },
+  "answerNormalizationVersion": 1,
+  "quizzes": {
+    "europe-leader": "/snapshots/demo-v1/quizzes/europe-leader.json"
+  },
+  "maps": {
+    "europe": "/snapshots/demo-v1/maps/europe.geojson"
+  },
+  "images": "/snapshots/demo-v1/assets/images.json"
+}
