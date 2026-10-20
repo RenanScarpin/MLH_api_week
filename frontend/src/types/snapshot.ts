@@ -7,7 +7,7 @@ export interface LatestSnapshotPointer {
 
 export interface SnapshotSources {
   wikidataFetchedAt: string;
-  commonsFetchedAt: string;
+  commonsFetchedAt: string | null;
   naturalEarthVersion: string;
 }
 
@@ -149,6 +149,7 @@ export interface QuizMapFeature {
 
 export interface QuizMapGeoJson {
   type: "FeatureCollection";
+  bbox?: [number, number, number, number];
   features: QuizMapFeature[];
 }
 

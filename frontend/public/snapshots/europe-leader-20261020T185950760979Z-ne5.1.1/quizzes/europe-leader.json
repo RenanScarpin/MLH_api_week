@@ -1,0 +1,1409 @@
+{
+  "id": "europe-leader",
+  "title": "Guess the sovereign state by its head of state",
+  "scope": {
+    "kind": "continent",
+    "id": "europe",
+    "mapId": "europe"
+  },
+  "subjectKind": "sovereign_state",
+  "promptKind": "head_of_state",
+  "interactionKind": "text",
+  "progressionKind": "sequential",
+  "completionRule": "all_subjects",
+  "subjects": [
+    {
+      "id": "Q222",
+      "entityQid": "Q222",
+      "sovereignQid": "Q222",
+      "displayName": "Albania",
+      "acceptedAnswers": [
+        "al",
+        "alb",
+        "albania",
+        "peoples republic of albania",
+        "peoples socialist republic of albania",
+        "republic of albania",
+        "republika popullore e shqiperise",
+        "republika popullore socialiste e shqiperise",
+        "shqiperise"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320325"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q107422711",
+            "displayName": "Bajram Begaj",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q228",
+      "entityQid": "Q228",
+      "sovereignQid": "Q228",
+      "displayName": "Andorra",
+      "acceptedAnswers": [
+        "ad",
+        "and",
+        "andorra",
+        "principality of andorra",
+        "principality of the valleys of andorra"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320327"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3052772",
+            "displayName": "Emmanuel Macron",
+            "imageId": null
+          },
+          {
+            "entityQid": "Q93244592",
+            "displayName": "Josep-Lluís Serrano Pentinat",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q40",
+      "entityQid": "Q40",
+      "sovereignQid": "Q40",
+      "displayName": "Austria",
+      "acceptedAnswers": [
+        "at",
+        "austria",
+        "aut",
+        "republic of austria"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320379"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q78869",
+            "displayName": "Alexander Van der Bellen",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q227",
+      "entityQid": "Q227",
+      "sovereignQid": "Q227",
+      "displayName": "Azerbaijan",
+      "acceptedAnswers": [
+        "az",
+        "aze",
+        "azerbaijan",
+        "republic of azerbaijan"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320381"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q57371",
+            "displayName": "Ilham Aliyev",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q184",
+      "entityQid": "Q184",
+      "sovereignQid": "Q184",
+      "displayName": "Belarus",
+      "acceptedAnswers": [
+        "belarus",
+        "belorussia",
+        "bielarus",
+        "bielorussia",
+        "blr",
+        "by",
+        "byeloruss",
+        "byelorussia",
+        "republic of belarus",
+        "respublika belarus",
+        "respublika bielarus",
+        "white russia",
+        "white ruthenia"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320427"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q2866",
+            "displayName": "Alexander Lukashenka",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q31",
+      "entityQid": "Q31",
+      "sovereignQid": "Q31",
+      "displayName": "Belgium",
+      "acceptedAnswers": [
+        "be",
+        "bel",
+        "belgium",
+        "kingdom of belgium"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320391",
+        "ne-map-unit-1159320395",
+        "ne-map-unit-1159320397"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q155004",
+            "displayName": "Philippe of Belgium",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q225",
+      "entityQid": "Q225",
+      "sovereignQid": "Q225",
+      "displayName": "Bosnia and Herzegovina",
+      "acceptedAnswers": [
+        "b h",
+        "ba",
+        "bih",
+        "bosnia and hercegovina",
+        "bosnia and herzegovina",
+        "bosnia herzegovina"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320419",
+        "ne-map-unit-1159320421",
+        "ne-map-unit-1159320423"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q13081568",
+            "displayName": "Denis Bećirović",
+            "imageId": null
+          },
+          {
+            "entityQid": "Q5528031",
+            "displayName": "Željka Cvijanović",
+            "imageId": null
+          },
+          {
+            "entityQid": "Q297825",
+            "displayName": "Željko Komšić",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q219",
+      "entityQid": "Q219",
+      "sovereignQid": "Q219",
+      "displayName": "Bulgaria",
+      "acceptedAnswers": [
+        "bg",
+        "bgr",
+        "bulgaria",
+        "bulgarian republic",
+        "republic of bulgaria"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320409"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q433338",
+            "displayName": "Iliana Iotova",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q224",
+      "entityQid": "Q224",
+      "sovereignQid": "Q224",
+      "displayName": "Croatia",
+      "acceptedAnswers": [
+        "cro",
+        "croatia",
+        "hr",
+        "hrv",
+        "republic of croatia",
+        "rh"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320833"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q57687",
+            "displayName": "Zoran Milanović",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q229",
+      "entityQid": "Q229",
+      "sovereignQid": "Q229",
+      "displayName": "Cyprus",
+      "acceptedAnswers": [
+        "cy",
+        "cyp",
+        "cyprus",
+        "greek administration of southern cyprus",
+        "greek cypriot state",
+        "republic of cyprus"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320533"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q48905549",
+            "displayName": "Nicos Christodoulides",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q213",
+      "entityQid": "Q213",
+      "sovereignQid": "Q213",
+      "displayName": "Czech Republic",
+      "acceptedAnswers": [
+        "cz",
+        "cze",
+        "czech republic",
+        "czechia",
+        "the czech republic"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320535"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q2080040",
+            "displayName": "Petr Pavel",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q191",
+      "entityQid": "Q191",
+      "sovereignQid": "Q191",
+      "displayName": "Estonia",
+      "acceptedAnswers": [
+        "ee",
+        "eesti vabariik",
+        "est",
+        "estland",
+        "estonia",
+        "republic of estonia"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320615"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q16407395",
+            "displayName": "Ülle Madise",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q33",
+      "entityQid": "Q33",
+      "sovereignQid": "Q33",
+      "displayName": "Finland",
+      "acceptedAnswers": [
+        "fi",
+        "fin",
+        "finland",
+        "finnia",
+        "land of thousand lakes",
+        "republic of finland",
+        "republiken finland",
+        "suomen tasavalta"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320621",
+        "ne-map-unit-1159320623"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q503143",
+            "displayName": "Alexander Stubb",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q142",
+      "entityQid": "Q142",
+      "sovereignQid": "Q142",
+      "displayName": "France",
+      "acceptedAnswers": [
+        "fr",
+        "fra",
+        "france",
+        "french republic"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320651"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3052772",
+            "displayName": "Emmanuel Macron",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q230",
+      "entityQid": "Q230",
+      "sovereignQid": "Q230",
+      "displayName": "Georgia",
+      "acceptedAnswers": [
+        "ge",
+        "geo",
+        "georgia",
+        "georgia country",
+        "georgia sakartvelo",
+        "republic of georgia",
+        "sakartvelo"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320783"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q711893",
+            "displayName": "Mikheil Kavelashvili",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q183",
+      "entityQid": "Q183",
+      "sovereignQid": "Q183",
+      "displayName": "Germany",
+      "acceptedAnswers": [
+        "brd",
+        "de",
+        "deu",
+        "federal republic of germany",
+        "frg",
+        "germany"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320539"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q76658",
+            "displayName": "Frank-Walter Steinmeier",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q41",
+      "entityQid": "Q41",
+      "sovereignQid": "Q41",
+      "displayName": "Greece",
+      "acceptedAnswers": [
+        "el",
+        "ellada",
+        "gr",
+        "grc",
+        "greece",
+        "greek republic",
+        "hellas",
+        "hellas greece",
+        "hellenic republic"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320811"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q20995518",
+            "displayName": "Konstantinos Tasoulas",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q28",
+      "entityQid": "Q28",
+      "sovereignQid": "Q28",
+      "displayName": "Hungary",
+      "acceptedAnswers": [
+        "hu",
+        "hun",
+        "hungary"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320841"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q788903",
+            "displayName": "András Baka",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q189",
+      "entityQid": "Q189",
+      "sovereignQid": "Q189",
+      "displayName": "Iceland",
+      "acceptedAnswers": [
+        "iceland",
+        "icelandic republic",
+        "is",
+        "isl",
+        "republic of iceland",
+        "ysland"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320917"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q24494577",
+            "displayName": "Halla Tómasdóttir",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q27",
+      "entityQid": "Q27",
+      "sovereignQid": "Q27",
+      "displayName": "Ireland",
+      "acceptedAnswers": [
+        "ie",
+        "ireland",
+        "irish republic",
+        "irl",
+        "republic of ireland",
+        "southern ireland"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320877"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q5052598",
+            "displayName": "Catherine Connolly",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q38",
+      "entityQid": "Q38",
+      "sovereignQid": "Q38",
+      "displayName": "Italy",
+      "acceptedAnswers": [
+        "it",
+        "ita",
+        "italian republic",
+        "italy",
+        "republic of italy"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320919"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3956186",
+            "displayName": "Sergio Mattarella",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q232",
+      "entityQid": "Q232",
+      "sovereignQid": "Q232",
+      "displayName": "Kazakhstan",
+      "acceptedAnswers": [
+        "kaz",
+        "kazakhstan",
+        "kz",
+        "qazaqstan",
+        "republic of kazakhstan",
+        "republic of qazaqstan"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320967"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q200881",
+            "displayName": "Kassym-Jomart Tokayev",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q756617",
+      "entityQid": "Q756617",
+      "sovereignQid": "Q756617",
+      "displayName": "Kingdom of Denmark",
+      "acceptedAnswers": [
+        "danish commonwealth",
+        "danish realm",
+        "danmarkar riki",
+        "danmarkip naalagaaffik",
+        "danmarks rige",
+        "denmark",
+        "kingdom of denmark",
+        "kongeriget danmark",
+        "kongsriki danmarkar",
+        "kunngeqarfik danmarki",
+        "realm of denmark"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320547",
+        "ne-map-unit-1159320549"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q1004037",
+            "displayName": "Frederik X of Denmark",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q29999",
+      "entityQid": "Q29999",
+      "sovereignQid": "Q29999",
+      "displayName": "Kingdom of the Netherlands",
+      "acceptedAnswers": [
+        "kingdom of netherlands",
+        "kingdom of the netherlands",
+        "nederlanden",
+        "netherlands",
+        "nl",
+        "nld",
+        "the netherlands"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321105"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q154952",
+            "displayName": "William Alexander of the Netherlands",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q1246",
+      "entityQid": "Q1246",
+      "sovereignQid": "Q1246",
+      "displayName": "Kosovo",
+      "acceptedAnswers": [
+        "kos",
+        "kosova",
+        "kosovo",
+        "kv",
+        "republic of kosovo",
+        "rks",
+        "xk",
+        "xks",
+        "xkx"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321007"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q13036897",
+            "displayName": "Albulena Haxhiu",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q211",
+      "entityQid": "Q211",
+      "sovereignQid": "Q211",
+      "displayName": "Latvia",
+      "acceptedAnswers": [
+        "latveja",
+        "latvejas republika",
+        "latvia",
+        "latvian republic",
+        "latvija",
+        "latvijas republika",
+        "letmо",
+        "letmо vabamо",
+        "lv",
+        "lva",
+        "republic of latvia"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321033"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3047551",
+            "displayName": "Edgars Rinkēvičs",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q347",
+      "entityQid": "Q347",
+      "sovereignQid": "Q347",
+      "displayName": "Liechtenstein",
+      "acceptedAnswers": [
+        "fl",
+        "li",
+        "lie",
+        "liechtenstein",
+        "principality of liechtenstein"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321021"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q57454",
+            "displayName": "Hans-Adam II, Prince of Liechtenstein",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q37",
+      "entityQid": "Q37",
+      "sovereignQid": "Q37",
+      "displayName": "Lithuania",
+      "acceptedAnswers": [
+        "lithuania",
+        "lt",
+        "ltu",
+        "republic of lithuania"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321029"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q9268379",
+            "displayName": "Gitanas Nausėda",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q32",
+      "entityQid": "Q32",
+      "sovereignQid": "Q32",
+      "displayName": "Luxembourg",
+      "acceptedAnswers": [
+        "grand duchy of luxembourg",
+        "lu",
+        "lux",
+        "luxembourg"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321031"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q161319",
+            "displayName": "Guillaume V, Grand Duke of Luxembourg",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q233",
+      "entityQid": "Q233",
+      "sovereignQid": "Q233",
+      "displayName": "Malta",
+      "acceptedAnswers": [
+        "malta",
+        "mlt",
+        "mt",
+        "republic of malta"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321065"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q1647394",
+            "displayName": "Myriam Spiteri Debono",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q217",
+      "entityQid": "Q217",
+      "sovereignQid": "Q217",
+      "displayName": "Moldova",
+      "acceptedAnswers": [
+        "md",
+        "mda",
+        "moldavia",
+        "moldova",
+        "republic of moldova",
+        "republica moldova"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321045"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q15071069",
+            "displayName": "Maia Sandu",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q235",
+      "entityQid": "Q235",
+      "sovereignQid": "Q235",
+      "displayName": "Monaco",
+      "acceptedAnswers": [
+        "fort hercule",
+        "mc",
+        "mco",
+        "monaco",
+        "munegu",
+        "principality and diocese of monaco",
+        "principality of monaco",
+        "principato di monaco",
+        "principatu de munegu",
+        "principaute de monaco"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321043"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3910",
+            "displayName": "Albert II, Prince of Monaco",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q236",
+      "entityQid": "Q236",
+      "sovereignQid": "Q236",
+      "displayName": "Montenegro",
+      "acceptedAnswers": [
+        "me",
+        "mne",
+        "montenegro",
+        "republic of montenegro"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321069"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q104417661",
+            "displayName": "Jakov Milatović",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q221",
+      "entityQid": "Q221",
+      "sovereignQid": "Q221",
+      "displayName": "North Macedonia",
+      "acceptedAnswers": [
+        "former yugoslav republic of macedonia",
+        "fyr macedonia",
+        "macedonia",
+        "makedonia",
+        "mk",
+        "mkd",
+        "nm",
+        "north macedonia",
+        "republic of macedonia",
+        "republic of north macedonia"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321061"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q12277168",
+            "displayName": "Gordana Siljanovska-Davkova",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q20",
+      "entityQid": "Q20",
+      "sovereignQid": "Q20",
+      "displayName": "Norway",
+      "acceptedAnswers": [
+        "kingdom of norway",
+        "no",
+        "nor",
+        "norway"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321115",
+        "ne-map-unit-1159321117",
+        "ne-map-unit-1159321119"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q165241",
+            "displayName": "Haakon VIII of Norway",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q36",
+      "entityQid": "Q36",
+      "sovereignQid": "Q36",
+      "displayName": "Poland",
+      "acceptedAnswers": [
+        "pl",
+        "pol",
+        "poland",
+        "republic of poland"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321179"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q17704749",
+            "displayName": "Karol Nawrocki",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q45",
+      "entityQid": "Q45",
+      "sovereignQid": "Q45",
+      "displayName": "Portugal",
+      "acceptedAnswers": [
+        "por",
+        "portugal",
+        "portuguese republic",
+        "prt",
+        "pt"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321193"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q1580316",
+            "displayName": "António José Seguro",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q218",
+      "entityQid": "Q218",
+      "sovereignQid": "Q218",
+      "displayName": "Romania",
+      "acceptedAnswers": [
+        "ro",
+        "romania",
+        "rou",
+        "roumania",
+        "rumania"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321199"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q11163124",
+            "displayName": "Nicușor Dan",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q159",
+      "entityQid": "Q159",
+      "sovereignQid": "Q159",
+      "displayName": "Russia",
+      "acceptedAnswers": [
+        "ru",
+        "rus",
+        "russia",
+        "russian federation"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321201"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q7747",
+            "displayName": "Vladimir Putin",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q238",
+      "entityQid": "Q238",
+      "sovereignQid": "Q238",
+      "displayName": "San Marino",
+      "acceptedAnswers": [
+        "most serene republic of san marino",
+        "san marino",
+        "sm",
+        "smr"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321255"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q57546",
+            "displayName": "Denise Bronzetti",
+            "imageId": null
+          },
+          {
+            "entityQid": "Q1353628",
+            "displayName": "Italo Righi",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q403",
+      "entityQid": "Q403",
+      "sovereignQid": "Q403",
+      "displayName": "Serbia",
+      "acceptedAnswers": [
+        "republic of serbia",
+        "rs",
+        "serbia",
+        "srb"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321269",
+        "ne-map-unit-1159321271"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q26258815",
+            "displayName": "Ana Brnabić",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q214",
+      "entityQid": "Q214",
+      "sovereignQid": "Q214",
+      "displayName": "Slovakia",
+      "acceptedAnswers": [
+        "sk",
+        "slovak republic",
+        "slovakia",
+        "svk"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321283"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q17330556",
+            "displayName": "Peter Pellegrini",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q215",
+      "entityQid": "Q215",
+      "sovereignQid": "Q215",
+      "displayName": "Slovenia",
+      "acceptedAnswers": [
+        "republic of slovenia",
+        "si",
+        "slo",
+        "slovenia",
+        "slovenija",
+        "svn"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321285"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q12797332",
+            "displayName": "Nataša Pirc Musar",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q29",
+      "entityQid": "Q29",
+      "sovereignQid": "Q29",
+      "displayName": "Spain",
+      "acceptedAnswers": [
+        "es",
+        "esp",
+        "kingdom of spain",
+        "spain"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320587"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q191045",
+            "displayName": "Felipe VI of Spain",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q34",
+      "entityQid": "Q34",
+      "sovereignQid": "Q34",
+      "displayName": "Sweden",
+      "acceptedAnswers": [
+        "kingdom of sweden",
+        "se",
+        "swe",
+        "sweden",
+        "swedish kingdom"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321287"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q45068",
+            "displayName": "Carl XVI Gustaf of Sweden",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q39",
+      "entityQid": "Q39",
+      "sovereignQid": "Q39",
+      "displayName": "Switzerland",
+      "acceptedAnswers": [
+        "ch",
+        "che",
+        "confoederatio helvetica",
+        "swiss",
+        "swiss confederation",
+        "switzerland"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320491"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q30917",
+            "displayName": "Swiss Federal Council",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q43",
+      "entityQid": "Q43",
+      "sovereignQid": "Q43",
+      "displayName": "Turkey",
+      "acceptedAnswers": [
+        "republic of turkey",
+        "republic of turkiye",
+        "tr",
+        "tur",
+        "turkey"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321331"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q39259",
+            "displayName": "Recep Tayyip Erdoğan",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q212",
+      "entityQid": "Q212",
+      "sovereignQid": "Q212",
+      "displayName": "Ukraine",
+      "acceptedAnswers": [
+        "ua",
+        "ukr",
+        "ukraina",
+        "ukraine",
+        "ukrainia"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321345"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q3874799",
+            "displayName": "Volodymyr Zelenskyy",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q145",
+      "entityQid": "Q145",
+      "sovereignQid": "Q145",
+      "displayName": "United Kingdom",
+      "acceptedAnswers": [
+        "britain",
+        "g b",
+        "gb",
+        "gbr",
+        "great britain",
+        "great britain and northern ireland",
+        "the uk",
+        "the united kingdom",
+        "the united kingdom of great britain and northern ireland",
+        "u k",
+        "united kingdom",
+        "united kingdom of great britain and northern ireland"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159320715",
+        "ne-map-unit-1159320719",
+        "ne-map-unit-1159320721",
+        "ne-map-unit-1159320725",
+        "ne-map-unit-1159320743",
+        "ne-map-unit-1159320745",
+        "ne-map-unit-1159320747",
+        "ne-map-unit-1159320749"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q43274",
+            "displayName": "Charles III",
+            "imageId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q237",
+      "entityQid": "Q237",
+      "sovereignQid": "Q237",
+      "displayName": "Vatican City",
+      "acceptedAnswers": [
+        "citta del vaticano",
+        "holy see",
+        "papal state",
+        "state of vatican city",
+        "stato della citta del vaticano",
+        "status civitatis vaticanae",
+        "the vatican",
+        "va",
+        "vat",
+        "vatican",
+        "vatican city",
+        "vatican city state"
+      ],
+      "mapTargetIds": [
+        "ne-map-unit-1159321407"
+      ],
+      "prompt": {
+        "kind": "head_of_state",
+        "heads": [
+          {
+            "entityQid": "Q6109517",
+            "displayName": "Leo XIV",
+            "imageId": null
+          }
+        ]
+      }
+    }
+  ]
+}

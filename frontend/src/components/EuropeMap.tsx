@@ -21,6 +21,11 @@ function pointsOfFeature(feature: QuizMapFeature): Position[] {
 }
 
 function calculateBounds(map: QuizMapGeoJson): Bounds {
+  if (map.bbox) {
+    const [minX, minY, maxX, maxY] = map.bbox;
+    return { minX, maxX, minY, maxY };
+  }
+
   const points = map.features.flatMap(pointsOfFeature);
   const xs = points.map(([x]) => x);
   const ys = points.map(([, y]) => y);
@@ -81,16 +86,18 @@ export function EuropeMap({ map, highlightedTargetIds }: EuropeMapProps) {
 
   return (
     <section className="map-panel" aria-label="Europe map">
-      <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Simplified fixture map of Europe">
+      <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label="Map of Europe">
         {paths.map((path) => (
           <path
             key={path.id}
             d={path.d}
             className={highlightedTargetIds.has(path.id) ? "country solved" : "country"}
+            fillRule="evenodd"
+            clipRule="evenodd"
           />
         ))}
       </svg>
-      <p className="fixture-note">Simplified geometry for the frontend fixture only.</p>
+      <p className="fixture-note">Natural Earth Admin 0 geometry.</p>
     </section>
   );
 }

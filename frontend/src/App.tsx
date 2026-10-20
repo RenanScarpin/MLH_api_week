@@ -72,7 +72,7 @@ export default function App() {
     <main className="app-shell">
       <header className="page-header">
         <div>
-          <p className="eyebrow">Europe · fixture snapshot</p>
+          <p className="eyebrow">Europe · immutable snapshot</p>
           <h1>{loaded.quiz.title}</h1>
         </div>
         <ProgressIndicator
@@ -87,7 +87,7 @@ export default function App() {
           {session.status === "completed" ? (
             <div className="completion-card">
               <p className="eyebrow">Quiz complete</p>
-              <h2>You solved all {loaded.quiz.subjects.length} fixture countries.</h2>
+              <h2>You solved all {loaded.quiz.subjects.length} countries.</h2>
               <p>{session.wrongAttempts} wrong attempt{session.wrongAttempts === 1 ? "" : "s"}.</p>
               <button onClick={restart}>Play again</button>
             </div>
@@ -109,7 +109,7 @@ export default function App() {
       </div>
 
       <footer>
-        Snapshot {loaded.manifest.snapshotId} · Natural Earth fixture version {loaded.manifest.sources.naturalEarthVersion}
+        Snapshot {loaded.manifest.snapshotId} · Natural Earth version {loaded.manifest.sources.naturalEarthVersion}
       </footer>
     </main>
   );

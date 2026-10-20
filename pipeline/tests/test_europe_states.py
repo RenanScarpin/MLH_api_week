@@ -53,6 +53,75 @@ class EuropeStatesTests(unittest.TestCase):
         self.assertIn("nld", state["acceptedAnswers"])
         self.assertNotIn("old kingdom name", state["acceptedAnswers"])
 
+
+    def test_state_record_keeps_current_geometry_constituent_qids(self) -> None:
+        entity = {
+            "id": "Q756617",
+            "labels": {"en": {"value": "Kingdom of Denmark"}},
+            "aliases": {"en": []},
+            "claims": {
+                "P150": [
+                    {
+                        "rank": "normal",
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "datavalue": {
+                                "type": "wikibase-entityid",
+                                "value": {"id": "Q35"},
+                            },
+                        },
+                        "qualifiers": {},
+                    },
+                    {
+                        "rank": "normal",
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "datavalue": {
+                                "type": "wikibase-entityid",
+                                "value": {"id": "Q223"},
+                            },
+                        },
+                        "qualifiers": {},
+                    },
+                ],
+                "P527": [
+                    {
+                        "rank": "normal",
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "datavalue": {
+                                "type": "wikibase-entityid",
+                                "value": {"id": "Q4628"},
+                            },
+                        },
+                        "qualifiers": {},
+                    },
+                    {
+                        "rank": "normal",
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "datavalue": {
+                                "type": "wikibase-entityid",
+                                "value": {"id": "Q999"},
+                            },
+                        },
+                        "qualifiers": {
+                            "P582": [
+                                {
+                                    "datavalue": {
+                                        "type": "time",
+                                        "value": {"time": "+2000-01-01T00:00:00Z"},
+                                    }
+                                }
+                            ]
+                        },
+                    },
+                ],
+            },
+        }
+        state = build_state_record(entity, now=NOW)
+        self.assertEqual(state["geometryConstituentQids"], ["Q35", "Q223", "Q4628"])
+
     def test_collision_report_keeps_both_states(self) -> None:
         states = [
             {"qid": "Q1", "displayName": "One", "acceptedAnswers": ["shared", "one"]},

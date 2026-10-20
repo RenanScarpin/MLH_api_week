@@ -17,23 +17,12 @@
       "entityQid": "Q142",
       "sovereignQid": "Q142",
       "displayName": "France",
-      "acceptedAnswers": [
-        "fr",
-        "fra",
-        "france",
-        "french republic"
-      ],
-      "mapTargetIds": [
-        "france"
-      ],
+      "acceptedAnswers": ["france", "french republic", "fra"],
+      "mapTargetIds": ["france"],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          {
-            "entityQid": "Q3052772",
-            "displayName": "Emmanuel Macron",
-            "imageId": null
-          }
+          { "entityQid": "Q3052772", "displayName": "Emmanuel Macron", "imageId": "macron-fixture" }
         ]
       }
     },
@@ -42,29 +31,13 @@
       "entityQid": "Q228",
       "sovereignQid": "Q228",
       "displayName": "Andorra",
-      "acceptedAnswers": [
-        "ad",
-        "and",
-        "andorra",
-        "principality of andorra",
-        "principality of the valleys of andorra"
-      ],
-      "mapTargetIds": [
-        "andorra"
-      ],
+      "acceptedAnswers": ["andorra", "principality of andorra", "and"],
+      "mapTargetIds": ["andorra"],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          {
-            "entityQid": "Q3052772",
-            "displayName": "Emmanuel Macron",
-            "imageId": null
-          },
-          {
-            "entityQid": "Q93244592",
-            "displayName": "Josep-Lluís Serrano Pentinat",
-            "imageId": null
-          }
+          { "entityQid": "Q3052772", "displayName": "Emmanuel Macron", "imageId": "macron-fixture" },
+          { "entityQid": "Q9990001", "displayName": "Josep-Lluís Serrano Pentinat", "imageId": "serrano-fixture" }
         ]
       }
     },
@@ -73,25 +46,12 @@
       "entityQid": "Q39",
       "sovereignQid": "Q39",
       "displayName": "Switzerland",
-      "acceptedAnswers": [
-        "ch",
-        "che",
-        "confoederatio helvetica",
-        "swiss",
-        "swiss confederation",
-        "switzerland"
-      ],
-      "mapTargetIds": [
-        "switzerland"
-      ],
+      "acceptedAnswers": ["switzerland", "swiss confederation", "che", "sui"],
+      "mapTargetIds": ["switzerland"],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          {
-            "entityQid": "Q30917",
-            "displayName": "Swiss Federal Council",
-            "imageId": null
-          }
+          { "entityQid": "Q30917", "displayName": "Swiss Federal Council", "imageId": null }
         ]
       }
     },
@@ -100,25 +60,12 @@
       "entityQid": "Q183",
       "sovereignQid": "Q183",
       "displayName": "Germany",
-      "acceptedAnswers": [
-        "brd",
-        "de",
-        "deu",
-        "federal republic of germany",
-        "frg",
-        "germany"
-      ],
-      "mapTargetIds": [
-        "germany"
-      ],
+      "acceptedAnswers": ["germany", "federal republic of germany", "deu"],
+      "mapTargetIds": ["germany"],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          {
-            "entityQid": "Q76658",
-            "displayName": "Frank-Walter Steinmeier",
-            "imageId": null
-          }
+          { "entityQid": "Q5196", "displayName": "Frank-Walter Steinmeier", "imageId": "steinmeier-fixture" }
         ]
       }
     },
@@ -127,24 +74,12 @@
       "entityQid": "Q38",
       "sovereignQid": "Q38",
       "displayName": "Italy",
-      "acceptedAnswers": [
-        "it",
-        "ita",
-        "italian republic",
-        "italy",
-        "republic of italy"
-      ],
-      "mapTargetIds": [
-        "italy"
-      ],
+      "acceptedAnswers": ["italy", "italian republic", "ita"],
+      "mapTargetIds": ["italy"],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          {
-            "entityQid": "Q3956186",
-            "displayName": "Sergio Mattarella",
-            "imageId": null
-          }
+          { "entityQid": "Q3956186", "displayName": "Sergio Mattarella", "imageId": "mattarella-fixture" }
         ]
       }
     }

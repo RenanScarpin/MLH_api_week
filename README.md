@@ -1,42 +1,57 @@
 # Geography Quiz MVP
 
-This repository implements the first vertical slice of the geography quiz website plus the first two real Wikidata ingestion stages.
+This repository implements the first vertical slice of the geography quiz website plus three live-data ingestion stages.
 
-## Frontend vertical slice
+## Current playable MVP
 
-Implemented:
+The frontend is React + TypeScript + Vite and implements:
 
-- React + TypeScript + Vite frontend skeleton.
-- Immutable snapshot contracts.
-- Hand-written `demo-v1` snapshot fixture.
-- Five European sovereign-state leader questions.
-- Single-head, multiple-head (Andorra), and non-human collective-head (Switzerland) prompt shapes.
-- Missing-image placeholder path (`Swiss Federal Council` deliberately has `imageId: null` in the fixture).
-- Permissive answer normalization.
-- Pure sequential quiz-session engine.
-- Derived map highlighting from solved subjects.
-- Simplified SVG Europe fixture map loaded from GeoJSON.
-- Node tests for answer normalization, fixture integrity, and quiz-engine behavior.
+- immutable snapshot loading;
+- sequential “guess sovereign state by head of state” gameplay;
+- permissive normalized text answers;
+- multiple simultaneous heads of state;
+- neutral named placeholders for missing portraits;
+- derived SVG map highlighting;
+- an explicit Europe viewport so transcontinental states do not stretch the board across Asia.
 
-The local SVG portraits and simplified polygons are development fixtures, not source data and not intended to represent the eventual Commons/Natural Earth ingestion output.
+The initial `demo-v1` fixture remains in the repository, but Stage 3 can now publish a new complete snapshot containing the **full real European leader set and real Natural Earth geometry**.
 
-## Wikidata pipeline — stages 1–2
+## Data pipeline
 
-`pipeline/` now contains the first live-data stage. It:
+### 1. European sovereign states + permissive names
 
-- queries Wikidata for current sovereign states in Europe;
-- fetches English labels and aliases;
-- includes current `P1813` short names and `P1448` official names;
-- includes ISO alpha-2 and alpha-3 codes;
-- uses the same answer normalization rules as the TypeScript frontend;
-- emits normalized-answer collision diagnostics instead of dropping ambiguous aliases;
-- can atomically overlay only real names/accepted answers onto the five-country demo while preserving fixture leaders and map IDs.
-- resolves current `P35` heads of state using rank/start/end qualifiers;
-- preserves simultaneous heads and non-human collective heads;
-- excludes states with no current `P35` from the leader-quiz dataset;
-- can overlay real head identities onto the demo while preserving fixture geometry and intentionally using image placeholders.
+```bash
+cd pipeline
+python -m geography_quiz_pipeline.build_europe_names
+```
 
-See `pipeline/README.md` for commands and details.
+### 2. Current Wikidata heads of state
+
+```bash
+python -m geography_quiz_pipeline.build_europe_heads
+```
+
+The command prints the actual states with no current `P35` and the actual states with multiple current `P35` values, including their head names/QIDs.
+
+### 3. Natural Earth geometry
+
+```bash
+python -m geography_quiz_pipeline.build_europe_geometry
+```
+
+Natural Earth Admin 0 is pinned to version **5.1.1** and cached locally. No newer Natural Earth release is adopted automatically.
+
+To make the real dataset playable in the frontend:
+
+```bash
+python -m geography_quiz_pipeline.build_europe_geometry --publish
+```
+
+This publishes a new immutable snapshot and moves `public/latest.json` only after the full snapshot succeeds.
+
+At this point leader portraits are intentionally still placeholders; Commons/P18 ingestion is the next stage.
+
+See `pipeline/README.md` for the exact geometry resolution rules and diagnostics.
 
 ## Run frontend
 
@@ -46,43 +61,20 @@ npm install
 npm run dev
 ```
 
-## Frontend tests
+## Tests
+
+Frontend:
 
 ```bash
 cd frontend
 npm test
 ```
 
-## Pipeline tests
+Pipeline:
 
 ```bash
 cd pipeline
 python -m unittest discover -s tests -v
-```
-
-## Fetch the Wikidata artifacts
-
-```bash
-cd pipeline
-python -m geography_quiz_pipeline.build_europe_names
-```
-
-To apply the fetched names to the existing demo fixture:
-
-```bash
-python -m geography_quiz_pipeline.build_europe_names --apply-demo
-```
-
-Then fetch current heads of state:
-
-```bash
-python -m geography_quiz_pipeline.build_europe_heads
-```
-
-Or overlay the real current head identities onto the demo as well:
-
-```bash
-python -m geography_quiz_pipeline.build_europe_heads --apply-demo
 ```
 
 ## Snapshot boundary
@@ -92,13 +84,28 @@ The frontend starts at `public/latest.json`, follows it to one immutable snapsho
 - `quizzes/europe-leader.json`
 - `maps/europe.geojson`
 - `assets/images.json`
-- portrait files lazily as needed
 
-The Python pipeline will eventually produce this entire immutable contract. The React app should never need to understand Wikidata properties/qualifiers, Natural Earth hierarchy fields, or Commons API responses.
+The React app does not understand `P31`, `P30`, `P35`, statement qualifiers/ranks, `SOV_A3`, or other upstream semantics. Those are fully compiled by Python into the runtime contract.
 
-`latest.json` is intentionally not touched by the current ingestion stage. Full snapshot publication will only move that pointer after every required component has been built successfully.
 
-### Wikidata batch robustness
+## Natural Earth hierarchy note
 
-The Wikidata Action API client retries transient JSON-level API errors (for example `maxlag`) and partial `wbgetentities` responses. If a batch returns only some requested QIDs, only the missing QIDs are retried.
+The geometry stage resolves higher-level Wikidata sovereign realms through current
+Wikidata constituent/part QIDs before falling back to ISO identifiers. This is
+required for the Kingdom of Denmark (`Q756617`), whose sovereign-state item does
+not expose a usable current ISO alpha-3 identifier.
 
+After updating from a version created before this support was added, regenerate
+the intermediate leader dataset before building geometry:
+
+```bash
+cd pipeline
+python -m geography_quiz_pipeline.build_europe_heads
+python -m geography_quiz_pipeline.build_europe_geometry
+```
+
+To publish the complete immutable snapshot after inspecting diagnostics:
+
+```bash
+python -m geography_quiz_pipeline.build_europe_geometry --publish
+```

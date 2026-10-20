@@ -53,11 +53,25 @@ def main() -> int:
         f"Wrote {dataset['eligibleStateCount']} leader-quiz-eligible European "
         f"sovereign states to {args.output}"
     )
-    print(
-        f"Excluded {dataset['excludedStateCount']} state(s) with no current P35; "
-        f"{len(dataset['diagnostics']['multipleCurrentHeads'])} state(s) have "
-        "multiple current P35 values."
-    )
+    excluded = dataset["diagnostics"]["excludedNoCurrentHead"]
+    multiple = dataset["diagnostics"]["multipleCurrentHeads"]
+
+    print(f"States with no current P35 ({len(excluded)}):")
+    if excluded:
+        for state in excluded:
+            print(f"  - {state['displayName']} ({state['qid']})")
+    else:
+        print("  (none)")
+
+    print(f"States with multiple current P35 values ({len(multiple)}):")
+    if multiple:
+        for state in multiple:
+            heads = ", ".join(
+                f"{head['displayName']} ({head['entityQid']})" for head in state["heads"]
+            )
+            print(f"  - {state['displayName']} ({state['qid']}): {heads}")
+    else:
+        print("  (none)")
     if dataset["collisions"]:
         print(f"Detected {len(dataset['collisions'])} normalized answer collision(s).")
 

@@ -113,6 +113,25 @@ def _current_string_claims(entity: dict[str, Any], property_id: str, *, now: dat
     return values
 
 
+
+
+def _current_entity_claims(entity: dict[str, Any], property_id: str, *, now: datetime) -> list[str]:
+    qids: list[str] = []
+    seen: set[str] = set()
+    for statement in current_statements(entity, property_id, now=now):
+        value = _statement_value(statement)
+        if not isinstance(value, dict):
+            continue
+        qid = value.get("id")
+        if not isinstance(qid, str):
+            numeric_id = value.get("numeric-id")
+            if isinstance(numeric_id, int):
+                qid = f"Q{numeric_id}"
+        if isinstance(qid, str) and qid.startswith("Q") and qid not in seen:
+            seen.add(qid)
+            qids.append(qid)
+    return qids
+
 def _current_english_monolingual_claims(
     entity: dict[str, Any], property_id: str, *, now: datetime
 ) -> list[str]:
@@ -184,11 +203,24 @@ def build_state_record(entity: dict[str, Any], *, now: datetime) -> dict[str, An
     alpha2 = _current_string_claims(entity, "P297", now=now)
     alpha3 = _current_string_claims(entity, "P298", now=now)
 
+    # Some Wikidata sovereign-state items sit above the country/map-unit level
+    # used by Natural Earth. Keep current constituent/part QIDs as a geometry
+    # hint so the Natural Earth stage can climb from those map units to one
+    # shared SOV_A3 without relying on names or deprecated ISO identifiers.
+    geometry_constituents: list[str] = []
+    seen_geometry_constituents: set[str] = set()
+    for property_id in ("P150", "P527"):
+        for constituent_qid in _current_entity_claims(entity, property_id, now=now):
+            if constituent_qid not in seen_geometry_constituents:
+                seen_geometry_constituents.add(constituent_qid)
+                geometry_constituents.append(constituent_qid)
+
     return {
         "qid": qid,
         "displayName": label,
         "isoAlpha2": alpha2[0] if alpha2 else None,
         "isoAlpha3": alpha3[0] if alpha3 else None,
+        "geometryConstituentQids": geometry_constituents,
         "names": names,
         "acceptedAnswers": accepted,
     }
