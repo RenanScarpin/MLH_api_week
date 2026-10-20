@@ -1,6 +1,6 @@
 # Geography Quiz MVP
 
-This repository implements the first vertical slice of the geography quiz website plus the first real Wikidata ingestion stage.
+This repository implements the first vertical slice of the geography quiz website plus the first two real Wikidata ingestion stages.
 
 ## Frontend vertical slice
 
@@ -20,7 +20,7 @@ Implemented:
 
 The local SVG portraits and simplified polygons are development fixtures, not source data and not intended to represent the eventual Commons/Natural Earth ingestion output.
 
-## Wikidata pipeline — stage 1
+## Wikidata pipeline — stages 1–2
 
 `pipeline/` now contains the first live-data stage. It:
 
@@ -31,6 +31,10 @@ The local SVG portraits and simplified polygons are development fixtures, not so
 - uses the same answer normalization rules as the TypeScript frontend;
 - emits normalized-answer collision diagnostics instead of dropping ambiguous aliases;
 - can atomically overlay only real names/accepted answers onto the five-country demo while preserving fixture leaders and map IDs.
+- resolves current `P35` heads of state using rank/start/end qualifiers;
+- preserves simultaneous heads and non-human collective heads;
+- excludes states with no current `P35` from the leader-quiz dataset;
+- can overlay real head identities onto the demo while preserving fixture geometry and intentionally using image placeholders.
 
 See `pipeline/README.md` for commands and details.
 
@@ -56,7 +60,7 @@ cd pipeline
 python -m unittest discover -s tests -v
 ```
 
-## Fetch the first real Wikidata artifact
+## Fetch the Wikidata artifacts
 
 ```bash
 cd pipeline
@@ -67,6 +71,18 @@ To apply the fetched names to the existing demo fixture:
 
 ```bash
 python -m geography_quiz_pipeline.build_europe_names --apply-demo
+```
+
+Then fetch current heads of state:
+
+```bash
+python -m geography_quiz_pipeline.build_europe_heads
+```
+
+Or overlay the real current head identities onto the demo as well:
+
+```bash
+python -m geography_quiz_pipeline.build_europe_heads --apply-demo
 ```
 
 ## Snapshot boundary

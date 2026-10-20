@@ -32,7 +32,7 @@
           {
             "entityQid": "Q3052772",
             "displayName": "Emmanuel Macron",
-            "imageId": "macron-fixture"
+            "imageId": null
           }
         ]
       }
@@ -58,12 +58,12 @@
           {
             "entityQid": "Q3052772",
             "displayName": "Emmanuel Macron",
-            "imageId": "macron-fixture"
+            "imageId": null
           },
           {
-            "entityQid": "Q9990001",
+            "entityQid": "Q93244592",
             "displayName": "Josep-Lluís Serrano Pentinat",
-            "imageId": "serrano-fixture"
+            "imageId": null
           }
         ]
       }
@@ -115,9 +115,9 @@
         "kind": "head_of_state",
         "heads": [
           {
-            "entityQid": "Q5196",
+            "entityQid": "Q76658",
             "displayName": "Frank-Walter Steinmeier",
-            "imageId": "steinmeier-fixture"
+            "imageId": null
           }
         ]
       }
@@ -143,7 +143,7 @@
           {
             "entityQid": "Q3956186",
             "displayName": "Sergio Mattarella",
-            "imageId": "mattarella-fixture"
+            "imageId": null
           }
         ]
       }
