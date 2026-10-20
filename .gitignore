@@ -1,1 +1,3 @@
 /frontend/node_modules
+/pipeline/geography_quiz_pipeline/__pycache__
+/pipeline/tests/__pycache__

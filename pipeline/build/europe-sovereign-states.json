@@ -1,0 +1,3133 @@
+{
+  "generatedAt": "2026-10-20T16:30:01.156177Z",
+  "normalizationVersion": 1,
+  "scope": {
+    "kind": "continent",
+    "continentQid": "Q46",
+    "continentName": "Europe",
+    "sovereignStateClassQid": "Q3624078"
+  },
+  "sources": {
+    "wikidataQueryService": "https://query.wikidata.org/sparql",
+    "wikidataActionApi": "https://www.wikidata.org/w/api.php"
+  },
+  "stateCount": 52,
+  "states": [
+    {
+      "qid": "Q222",
+      "displayName": "Albania",
+      "isoAlpha2": "AL",
+      "isoAlpha3": "ALB",
+      "names": [
+        {
+          "value": "AL",
+          "normalized": "al",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "ALB",
+          "normalized": "alb",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Albania",
+          "normalized": "albania",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "People's Republic of Albania",
+          "normalized": "peoples republic of albania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "People's Socialist Republic of Albania",
+          "normalized": "peoples socialist republic of albania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Albania",
+          "normalized": "republic of albania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republika Popullore e Shqiperise",
+          "normalized": "republika popullore e shqiperise",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republika Popullore Socialiste e Shqiperise",
+          "normalized": "republika popullore socialiste e shqiperise",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Shqipërisë",
+          "normalized": "shqiperise",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "al",
+        "alb",
+        "albania",
+        "peoples republic of albania",
+        "peoples socialist republic of albania",
+        "republic of albania",
+        "republika popullore e shqiperise",
+        "republika popullore socialiste e shqiperise",
+        "shqiperise"
+      ]
+    },
+    {
+      "qid": "Q228",
+      "displayName": "Andorra",
+      "isoAlpha2": "AD",
+      "isoAlpha3": "AND",
+      "names": [
+        {
+          "value": "AD",
+          "normalized": "ad",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "AND",
+          "normalized": "and",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Andorra",
+          "normalized": "andorra",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Principality of Andorra",
+          "normalized": "principality of andorra",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Principality of the Valleys of Andorra",
+          "normalized": "principality of the valleys of andorra",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ad",
+        "and",
+        "andorra",
+        "principality of andorra",
+        "principality of the valleys of andorra"
+      ]
+    },
+    {
+      "qid": "Q40",
+      "displayName": "Austria",
+      "isoAlpha2": "AT",
+      "isoAlpha3": "AUT",
+      "names": [
+        {
+          "value": "AT",
+          "normalized": "at",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Austria",
+          "normalized": "austria",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "AUT",
+          "normalized": "aut",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Austria",
+          "normalized": "republic of austria",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "at",
+        "austria",
+        "aut",
+        "republic of austria"
+      ]
+    },
+    {
+      "qid": "Q227",
+      "displayName": "Azerbaijan",
+      "isoAlpha2": "AZ",
+      "isoAlpha3": "AZE",
+      "names": [
+        {
+          "value": "AZ",
+          "normalized": "az",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "AZE",
+          "normalized": "aze",
+          "kinds": [
+            "alias",
+            "iso_alpha3",
+            "short_name"
+          ]
+        },
+        {
+          "value": "Azerbaijan",
+          "normalized": "azerbaijan",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Azerbaijan",
+          "normalized": "republic of azerbaijan",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "az",
+        "aze",
+        "azerbaijan",
+        "republic of azerbaijan"
+      ]
+    },
+    {
+      "qid": "Q184",
+      "displayName": "Belarus",
+      "isoAlpha2": "BY",
+      "isoAlpha3": "BLR",
+      "names": [
+        {
+          "value": "Belarus",
+          "normalized": "belarus",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Belorussia",
+          "normalized": "belorussia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Bielaruś",
+          "normalized": "bielarus",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Bielorussia",
+          "normalized": "bielorussia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "BLR",
+          "normalized": "blr",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "by",
+          "normalized": "by",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Byeloruss",
+          "normalized": "byeloruss",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Byelorussia",
+          "normalized": "byelorussia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Belarus",
+          "normalized": "republic of belarus",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Respublika Belarus'",
+          "normalized": "respublika belarus",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Respublika Bielaruś",
+          "normalized": "respublika bielarus",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "White Russia",
+          "normalized": "white russia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "White Ruthenia",
+          "normalized": "white ruthenia",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "belarus",
+        "belorussia",
+        "bielarus",
+        "bielorussia",
+        "blr",
+        "by",
+        "byeloruss",
+        "byelorussia",
+        "republic of belarus",
+        "respublika belarus",
+        "respublika bielarus",
+        "white russia",
+        "white ruthenia"
+      ]
+    },
+    {
+      "qid": "Q31",
+      "displayName": "Belgium",
+      "isoAlpha2": "BE",
+      "isoAlpha3": "BEL",
+      "names": [
+        {
+          "value": "BE",
+          "normalized": "be",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "BEL",
+          "normalized": "bel",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Belgium",
+          "normalized": "belgium",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Kingdom of Belgium",
+          "normalized": "kingdom of belgium",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "be",
+        "bel",
+        "belgium",
+        "kingdom of belgium"
+      ]
+    },
+    {
+      "qid": "Q225",
+      "displayName": "Bosnia and Herzegovina",
+      "isoAlpha2": "BA",
+      "isoAlpha3": "BIH",
+      "names": [
+        {
+          "value": "B&H",
+          "normalized": "b h",
+          "kinds": [
+            "alias",
+            "short_name"
+          ]
+        },
+        {
+          "value": "ba",
+          "normalized": "ba",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "BIH",
+          "normalized": "bih",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Bosnia and Hercegovina",
+          "normalized": "bosnia and hercegovina",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Bosnia and Herzegovina",
+          "normalized": "bosnia and herzegovina",
+          "kinds": [
+            "label",
+            "official_name"
+          ]
+        },
+        {
+          "value": "Bosnia-Herzegovina",
+          "normalized": "bosnia herzegovina",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "b h",
+        "ba",
+        "bih",
+        "bosnia and hercegovina",
+        "bosnia and herzegovina",
+        "bosnia herzegovina"
+      ]
+    },
+    {
+      "qid": "Q219",
+      "displayName": "Bulgaria",
+      "isoAlpha2": "BG",
+      "isoAlpha3": "BGR",
+      "names": [
+        {
+          "value": "BG",
+          "normalized": "bg",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "BGR",
+          "normalized": "bgr",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Bulgaria",
+          "normalized": "bulgaria",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Bulgarian Republic",
+          "normalized": "bulgarian republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Bulgaria",
+          "normalized": "republic of bulgaria",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "bg",
+        "bgr",
+        "bulgaria",
+        "bulgarian republic",
+        "republic of bulgaria"
+      ]
+    },
+    {
+      "qid": "Q224",
+      "displayName": "Croatia",
+      "isoAlpha2": "HR",
+      "isoAlpha3": "HRV",
+      "names": [
+        {
+          "value": "CRO",
+          "normalized": "cro",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Croatia",
+          "normalized": "croatia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "HR",
+          "normalized": "hr",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "HRV",
+          "normalized": "hrv",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Croatia",
+          "normalized": "republic of croatia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "RH",
+          "normalized": "rh",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "cro",
+        "croatia",
+        "hr",
+        "hrv",
+        "republic of croatia",
+        "rh"
+      ]
+    },
+    {
+      "qid": "Q229",
+      "displayName": "Cyprus",
+      "isoAlpha2": "CY",
+      "isoAlpha3": "CYP",
+      "names": [
+        {
+          "value": "CY",
+          "normalized": "cy",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "CYP",
+          "normalized": "cyp",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Cyprus",
+          "normalized": "cyprus",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Greek Administration of Southern Cyprus",
+          "normalized": "greek administration of southern cyprus",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Greek Cypriot State",
+          "normalized": "greek cypriot state",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Cyprus",
+          "normalized": "republic of cyprus",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "cy",
+        "cyp",
+        "cyprus",
+        "greek administration of southern cyprus",
+        "greek cypriot state",
+        "republic of cyprus"
+      ]
+    },
+    {
+      "qid": "Q213",
+      "displayName": "Czech Republic",
+      "isoAlpha2": "CZ",
+      "isoAlpha3": "CZE",
+      "names": [
+        {
+          "value": "CZ",
+          "normalized": "cz",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "CZE",
+          "normalized": "cze",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Czech Republic",
+          "normalized": "czech republic",
+          "kinds": [
+            "label",
+            "official_name"
+          ]
+        },
+        {
+          "value": "Czechia",
+          "normalized": "czechia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "the Czech Republic",
+          "normalized": "the czech republic",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "cz",
+        "cze",
+        "czech republic",
+        "czechia",
+        "the czech republic"
+      ]
+    },
+    {
+      "qid": "Q191",
+      "displayName": "Estonia",
+      "isoAlpha2": "EE",
+      "isoAlpha3": "EST",
+      "names": [
+        {
+          "value": "ee",
+          "normalized": "ee",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Eesti Vabariik",
+          "normalized": "eesti vabariik",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "EST",
+          "normalized": "est",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Estland",
+          "normalized": "estland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Estonia",
+          "normalized": "estonia",
+          "kinds": [
+            "label",
+            "short_name"
+          ]
+        },
+        {
+          "value": "Republic of Estonia",
+          "normalized": "republic of estonia",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ee",
+        "eesti vabariik",
+        "est",
+        "estland",
+        "estonia",
+        "republic of estonia"
+      ]
+    },
+    {
+      "qid": "Q33",
+      "displayName": "Finland",
+      "isoAlpha2": "FI",
+      "isoAlpha3": "FIN",
+      "names": [
+        {
+          "value": "fi",
+          "normalized": "fi",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "FIN",
+          "normalized": "fin",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Finland",
+          "normalized": "finland",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Finnia",
+          "normalized": "finnia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Land of Thousand Lakes",
+          "normalized": "land of thousand lakes",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Finland",
+          "normalized": "republic of finland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republiken Finland",
+          "normalized": "republiken finland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Suomen tasavalta",
+          "normalized": "suomen tasavalta",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "fi",
+        "fin",
+        "finland",
+        "finnia",
+        "land of thousand lakes",
+        "republic of finland",
+        "republiken finland",
+        "suomen tasavalta"
+      ]
+    },
+    {
+      "qid": "Q142",
+      "displayName": "France",
+      "isoAlpha2": "FR",
+      "isoAlpha3": "FRA",
+      "names": [
+        {
+          "value": "FR",
+          "normalized": "fr",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "FRA",
+          "normalized": "fra",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "France",
+          "normalized": "france",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "French Republic",
+          "normalized": "french republic",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "fr",
+        "fra",
+        "france",
+        "french republic"
+      ]
+    },
+    {
+      "qid": "Q230",
+      "displayName": "Georgia",
+      "isoAlpha2": "GE",
+      "isoAlpha3": "GEO",
+      "names": [
+        {
+          "value": "GE",
+          "normalized": "ge",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "GEO",
+          "normalized": "geo",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Georgia",
+          "normalized": "georgia",
+          "kinds": [
+            "label",
+            "official_name"
+          ]
+        },
+        {
+          "value": "Georgia (country)",
+          "normalized": "georgia country",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Georgia (Sakartvelo)",
+          "normalized": "georgia sakartvelo",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Georgia",
+          "normalized": "republic of georgia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Sakartvelo",
+          "normalized": "sakartvelo",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ge",
+        "geo",
+        "georgia",
+        "georgia country",
+        "georgia sakartvelo",
+        "republic of georgia",
+        "sakartvelo"
+      ]
+    },
+    {
+      "qid": "Q183",
+      "displayName": "Germany",
+      "isoAlpha2": "DE",
+      "isoAlpha3": "DEU",
+      "names": [
+        {
+          "value": "BRD",
+          "normalized": "brd",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "DE",
+          "normalized": "de",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "DEU",
+          "normalized": "deu",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Federal Republic of Germany",
+          "normalized": "federal republic of germany",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "FRG",
+          "normalized": "frg",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Germany",
+          "normalized": "germany",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "brd",
+        "de",
+        "deu",
+        "federal republic of germany",
+        "frg",
+        "germany"
+      ]
+    },
+    {
+      "qid": "Q41",
+      "displayName": "Greece",
+      "isoAlpha2": "GR",
+      "isoAlpha3": "GRC",
+      "names": [
+        {
+          "value": "el",
+          "normalized": "el",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Ellada",
+          "normalized": "ellada",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "gr",
+          "normalized": "gr",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "GRC",
+          "normalized": "grc",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Greece",
+          "normalized": "greece",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Greek Republic",
+          "normalized": "greek republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Hellas",
+          "normalized": "hellas",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Hellas, Greece",
+          "normalized": "hellas greece",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Hellenic Republic",
+          "normalized": "hellenic republic",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "el",
+        "ellada",
+        "gr",
+        "grc",
+        "greece",
+        "greek republic",
+        "hellas",
+        "hellas greece",
+        "hellenic republic"
+      ]
+    },
+    {
+      "qid": "Q28",
+      "displayName": "Hungary",
+      "isoAlpha2": "HU",
+      "isoAlpha3": "HUN",
+      "names": [
+        {
+          "value": "HU",
+          "normalized": "hu",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "HUN",
+          "normalized": "hun",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Hungary",
+          "normalized": "hungary",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "hu",
+        "hun",
+        "hungary"
+      ]
+    },
+    {
+      "qid": "Q189",
+      "displayName": "Iceland",
+      "isoAlpha2": "IS",
+      "isoAlpha3": "ISL",
+      "names": [
+        {
+          "value": "Iceland",
+          "normalized": "iceland",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Icelandic republic",
+          "normalized": "icelandic republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "IS",
+          "normalized": "is",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Isl.",
+          "normalized": "isl",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Iceland",
+          "normalized": "republic of iceland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Ysland",
+          "normalized": "ysland",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "iceland",
+        "icelandic republic",
+        "is",
+        "isl",
+        "republic of iceland",
+        "ysland"
+      ]
+    },
+    {
+      "qid": "Q27",
+      "displayName": "Ireland",
+      "isoAlpha2": "IE",
+      "isoAlpha3": "IRL",
+      "names": [
+        {
+          "value": "IE",
+          "normalized": "ie",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Ireland",
+          "normalized": "ireland",
+          "kinds": [
+            "label",
+            "official_name"
+          ]
+        },
+        {
+          "value": "Irish Republic",
+          "normalized": "irish republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "IRL",
+          "normalized": "irl",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Ireland",
+          "normalized": "republic of ireland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Southern Ireland",
+          "normalized": "southern ireland",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ie",
+        "ireland",
+        "irish republic",
+        "irl",
+        "republic of ireland",
+        "southern ireland"
+      ]
+    },
+    {
+      "qid": "Q38",
+      "displayName": "Italy",
+      "isoAlpha2": "IT",
+      "isoAlpha3": "ITA",
+      "names": [
+        {
+          "value": "IT",
+          "normalized": "it",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "ITA",
+          "normalized": "ita",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Italian Republic",
+          "normalized": "italian republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Italy",
+          "normalized": "italy",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Italy",
+          "normalized": "republic of italy",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "it",
+        "ita",
+        "italian republic",
+        "italy",
+        "republic of italy"
+      ]
+    },
+    {
+      "qid": "Q232",
+      "displayName": "Kazakhstan",
+      "isoAlpha2": "KZ",
+      "isoAlpha3": "KAZ",
+      "names": [
+        {
+          "value": "KAZ",
+          "normalized": "kaz",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Kazakhstan",
+          "normalized": "kazakhstan",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "kz",
+          "normalized": "kz",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Qazaqstan",
+          "normalized": "qazaqstan",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Kazakhstan",
+          "normalized": "republic of kazakhstan",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Qazaqstan",
+          "normalized": "republic of qazaqstan",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kaz",
+        "kazakhstan",
+        "kz",
+        "qazaqstan",
+        "republic of kazakhstan",
+        "republic of qazaqstan"
+      ]
+    },
+    {
+      "qid": "Q756617",
+      "displayName": "Kingdom of Denmark",
+      "isoAlpha2": null,
+      "isoAlpha3": null,
+      "names": [
+        {
+          "value": "Danish Commonwealth",
+          "normalized": "danish commonwealth",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Danish Realm",
+          "normalized": "danish realm",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Danmarkar Ríki",
+          "normalized": "danmarkar riki",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Danmarkip Naalagaaffik",
+          "normalized": "danmarkip naalagaaffik",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Danmarks Rige",
+          "normalized": "danmarks rige",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Denmark",
+          "normalized": "denmark",
+          "kinds": [
+            "alias",
+            "short_name"
+          ]
+        },
+        {
+          "value": "Kingdom of Denmark",
+          "normalized": "kingdom of denmark",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Kongeriget Danmark",
+          "normalized": "kongeriget danmark",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Kongsríki Danmarkar",
+          "normalized": "kongsriki danmarkar",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Kunngeqarfik Danmarki",
+          "normalized": "kunngeqarfik danmarki",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Realm of Denmark",
+          "normalized": "realm of denmark",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "danish commonwealth",
+        "danish realm",
+        "danmarkar riki",
+        "danmarkip naalagaaffik",
+        "danmarks rige",
+        "denmark",
+        "kingdom of denmark",
+        "kongeriget danmark",
+        "kongsriki danmarkar",
+        "kunngeqarfik danmarki",
+        "realm of denmark"
+      ]
+    },
+    {
+      "qid": "Q203493",
+      "displayName": "Kingdom of Romania",
+      "isoAlpha2": null,
+      "isoAlpha3": null,
+      "names": [
+        {
+          "value": "Kingdom of Romania",
+          "normalized": "kingdom of romania",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Kingdom of Rumania",
+          "normalized": "kingdom of rumania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Romanian Kingdom",
+          "normalized": "romanian kingdom",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Rumanian Kingdom",
+          "normalized": "rumanian kingdom",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kingdom of romania",
+        "kingdom of rumania",
+        "romanian kingdom",
+        "rumanian kingdom"
+      ]
+    },
+    {
+      "qid": "Q29999",
+      "displayName": "Kingdom of the Netherlands",
+      "isoAlpha2": "NL",
+      "isoAlpha3": "NLD",
+      "names": [
+        {
+          "value": "Kingdom of Netherlands",
+          "normalized": "kingdom of netherlands",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Kingdom of the Netherlands",
+          "normalized": "kingdom of the netherlands",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Nederlanden",
+          "normalized": "nederlanden",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Netherlands",
+          "normalized": "netherlands",
+          "kinds": [
+            "alias",
+            "short_name"
+          ]
+        },
+        {
+          "value": "NL",
+          "normalized": "nl",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "NLD",
+          "normalized": "nld",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "the Netherlands",
+          "normalized": "the netherlands",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kingdom of netherlands",
+        "kingdom of the netherlands",
+        "nederlanden",
+        "netherlands",
+        "nl",
+        "nld",
+        "the netherlands"
+      ]
+    },
+    {
+      "qid": "Q1246",
+      "displayName": "Kosovo",
+      "isoAlpha2": "XK",
+      "isoAlpha3": "XKS",
+      "names": [
+        {
+          "value": "KOS",
+          "normalized": "kos",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Kosova",
+          "normalized": "kosova",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Kosovo",
+          "normalized": "kosovo",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "KV",
+          "normalized": "kv",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Kosovo",
+          "normalized": "republic of kosovo",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "RKS",
+          "normalized": "rks",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "XK",
+          "normalized": "xk",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "XKS",
+          "normalized": "xks",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "XKX",
+          "normalized": "xkx",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kos",
+        "kosova",
+        "kosovo",
+        "kv",
+        "republic of kosovo",
+        "rks",
+        "xk",
+        "xks",
+        "xkx"
+      ]
+    },
+    {
+      "qid": "Q211",
+      "displayName": "Latvia",
+      "isoAlpha2": "LV",
+      "isoAlpha3": "LVA",
+      "names": [
+        {
+          "value": "Latveja",
+          "normalized": "latveja",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Latvejas Republika",
+          "normalized": "latvejas republika",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Latvia",
+          "normalized": "latvia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Latvian Republic",
+          "normalized": "latvian republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Latvija",
+          "normalized": "latvija",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Latvijas Republika",
+          "normalized": "latvijas republika",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Leţmо̄",
+          "normalized": "letmо",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Leţmо̄ Vabāmо̄",
+          "normalized": "letmо vabamо",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "lv",
+          "normalized": "lv",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "LVA",
+          "normalized": "lva",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Latvia",
+          "normalized": "republic of latvia",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "latveja",
+        "latvejas republika",
+        "latvia",
+        "latvian republic",
+        "latvija",
+        "latvijas republika",
+        "letmо",
+        "letmо vabamо",
+        "lv",
+        "lva",
+        "republic of latvia"
+      ]
+    },
+    {
+      "qid": "Q347",
+      "displayName": "Liechtenstein",
+      "isoAlpha2": "LI",
+      "isoAlpha3": "LIE",
+      "names": [
+        {
+          "value": "FL",
+          "normalized": "fl",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "li",
+          "normalized": "li",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "LIE",
+          "normalized": "lie",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Liechtenstein",
+          "normalized": "liechtenstein",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Principality of Liechtenstein",
+          "normalized": "principality of liechtenstein",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "fl",
+        "li",
+        "lie",
+        "liechtenstein",
+        "principality of liechtenstein"
+      ]
+    },
+    {
+      "qid": "Q37",
+      "displayName": "Lithuania",
+      "isoAlpha2": "LT",
+      "isoAlpha3": "LTU",
+      "names": [
+        {
+          "value": "Lithuania",
+          "normalized": "lithuania",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "LT",
+          "normalized": "lt",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "LTU",
+          "normalized": "ltu",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Republic of Lithuania",
+          "normalized": "republic of lithuania",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "lithuania",
+        "lt",
+        "ltu",
+        "republic of lithuania"
+      ]
+    },
+    {
+      "qid": "Q32",
+      "displayName": "Luxembourg",
+      "isoAlpha2": "LU",
+      "isoAlpha3": "LUX",
+      "names": [
+        {
+          "value": "Grand Duchy of Luxembourg",
+          "normalized": "grand duchy of luxembourg",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        },
+        {
+          "value": "LU",
+          "normalized": "lu",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "LUX",
+          "normalized": "lux",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Luxembourg",
+          "normalized": "luxembourg",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "grand duchy of luxembourg",
+        "lu",
+        "lux",
+        "luxembourg"
+      ]
+    },
+    {
+      "qid": "Q233",
+      "displayName": "Malta",
+      "isoAlpha2": "MT",
+      "isoAlpha3": "MLT",
+      "names": [
+        {
+          "value": "Malta",
+          "normalized": "malta",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "MLT",
+          "normalized": "mlt",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "MT",
+          "normalized": "mt",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Republic of Malta",
+          "normalized": "republic of malta",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "malta",
+        "mlt",
+        "mt",
+        "republic of malta"
+      ]
+    },
+    {
+      "qid": "Q217",
+      "displayName": "Moldova",
+      "isoAlpha2": "MD",
+      "isoAlpha3": "MDA",
+      "names": [
+        {
+          "value": "MD",
+          "normalized": "md",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "MDA",
+          "normalized": "mda",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Moldavia",
+          "normalized": "moldavia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Moldova",
+          "normalized": "moldova",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Moldova",
+          "normalized": "republic of moldova",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republica Moldova",
+          "normalized": "republica moldova",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "md",
+        "mda",
+        "moldavia",
+        "moldova",
+        "republic of moldova",
+        "republica moldova"
+      ]
+    },
+    {
+      "qid": "Q235",
+      "displayName": "Monaco",
+      "isoAlpha2": "MC",
+      "isoAlpha3": "MCO",
+      "names": [
+        {
+          "value": "Fort-Hercule",
+          "normalized": "fort hercule",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "mc",
+          "normalized": "mc",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "MCO",
+          "normalized": "mco",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Monaco",
+          "normalized": "monaco",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Mùnegu",
+          "normalized": "munegu",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Principality and Diocese of Monaco",
+          "normalized": "principality and diocese of monaco",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Principality of Monaco",
+          "normalized": "principality of monaco",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Principato di Monaco",
+          "normalized": "principato di monaco",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Prinçipatu de Mùnegu",
+          "normalized": "principatu de munegu",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Principauté de Monaco",
+          "normalized": "principaute de monaco",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "fort hercule",
+        "mc",
+        "mco",
+        "monaco",
+        "munegu",
+        "principality and diocese of monaco",
+        "principality of monaco",
+        "principato di monaco",
+        "principatu de munegu",
+        "principaute de monaco"
+      ]
+    },
+    {
+      "qid": "Q236",
+      "displayName": "Montenegro",
+      "isoAlpha2": "ME",
+      "isoAlpha3": "MNE",
+      "names": [
+        {
+          "value": "ME",
+          "normalized": "me",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "MNE",
+          "normalized": "mne",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Montenegro",
+          "normalized": "montenegro",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Montenegro",
+          "normalized": "republic of montenegro",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "me",
+        "mne",
+        "montenegro",
+        "republic of montenegro"
+      ]
+    },
+    {
+      "qid": "Q221",
+      "displayName": "North Macedonia",
+      "isoAlpha2": "MK",
+      "isoAlpha3": "MKD",
+      "names": [
+        {
+          "value": "Former Yugoslav Republic of Macedonia",
+          "normalized": "former yugoslav republic of macedonia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "FYR Macedonia",
+          "normalized": "fyr macedonia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Macedonia",
+          "normalized": "macedonia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Makedonia",
+          "normalized": "makedonia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "MK",
+          "normalized": "mk",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "MKD",
+          "normalized": "mkd",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "NM",
+          "normalized": "nm",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "North Macedonia",
+          "normalized": "north macedonia",
+          "kinds": [
+            "label",
+            "short_name"
+          ]
+        },
+        {
+          "value": "Republic of Macedonia",
+          "normalized": "republic of macedonia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of North Macedonia",
+          "normalized": "republic of north macedonia",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "former yugoslav republic of macedonia",
+        "fyr macedonia",
+        "macedonia",
+        "makedonia",
+        "mk",
+        "mkd",
+        "nm",
+        "north macedonia",
+        "republic of macedonia",
+        "republic of north macedonia"
+      ]
+    },
+    {
+      "qid": "Q20",
+      "displayName": "Norway",
+      "isoAlpha2": "NO",
+      "isoAlpha3": "NOR",
+      "names": [
+        {
+          "value": "Kingdom of Norway",
+          "normalized": "kingdom of norway",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "NO",
+          "normalized": "no",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "NOR",
+          "normalized": "nor",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Norway",
+          "normalized": "norway",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kingdom of norway",
+        "no",
+        "nor",
+        "norway"
+      ]
+    },
+    {
+      "qid": "Q36",
+      "displayName": "Poland",
+      "isoAlpha2": "PL",
+      "isoAlpha3": "POL",
+      "names": [
+        {
+          "value": "PL",
+          "normalized": "pl",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "POL",
+          "normalized": "pol",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Poland",
+          "normalized": "poland",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Poland",
+          "normalized": "republic of poland",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "pl",
+        "pol",
+        "poland",
+        "republic of poland"
+      ]
+    },
+    {
+      "qid": "Q172107",
+      "displayName": "Polish–Lithuanian Commonwealth",
+      "isoAlpha2": null,
+      "isoAlpha3": null,
+      "names": [
+        {
+          "value": "Commonwealth of Poland",
+          "normalized": "commonwealth of poland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "First Republic of Poland",
+          "normalized": "first republic of poland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Poland",
+          "normalized": "poland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Poland–Lithuania",
+          "normalized": "poland lithuania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Polish–Lithuanian Commonwealth",
+          "normalized": "polish lithuanian commonwealth",
+          "kinds": [
+            "alias",
+            "label"
+          ]
+        },
+        {
+          "value": "Republic of Both Nations",
+          "normalized": "republic of both nations",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "commonwealth of poland",
+        "first republic of poland",
+        "poland",
+        "poland lithuania",
+        "polish lithuanian commonwealth",
+        "republic of both nations"
+      ]
+    },
+    {
+      "qid": "Q45",
+      "displayName": "Portugal",
+      "isoAlpha2": "PT",
+      "isoAlpha3": "PRT",
+      "names": [
+        {
+          "value": "POR",
+          "normalized": "por",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Portugal",
+          "normalized": "portugal",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Portuguese Republic",
+          "normalized": "portuguese republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "PRT",
+          "normalized": "prt",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "PT",
+          "normalized": "pt",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "por",
+        "portugal",
+        "portuguese republic",
+        "prt",
+        "pt"
+      ]
+    },
+    {
+      "qid": "Q218",
+      "displayName": "Romania",
+      "isoAlpha2": "RO",
+      "isoAlpha3": "ROU",
+      "names": [
+        {
+          "value": "RO",
+          "normalized": "ro",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Romania",
+          "normalized": "romania",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "ROU",
+          "normalized": "rou",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Roumania",
+          "normalized": "roumania",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Rumania",
+          "normalized": "rumania",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ro",
+        "romania",
+        "rou",
+        "roumania",
+        "rumania"
+      ]
+    },
+    {
+      "qid": "Q159",
+      "displayName": "Russia",
+      "isoAlpha2": "RU",
+      "isoAlpha3": "RUS",
+      "names": [
+        {
+          "value": "RU",
+          "normalized": "ru",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "RUS",
+          "normalized": "rus",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Russia",
+          "normalized": "russia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Russian Federation",
+          "normalized": "russian federation",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ru",
+        "rus",
+        "russia",
+        "russian federation"
+      ]
+    },
+    {
+      "qid": "Q238",
+      "displayName": "San Marino",
+      "isoAlpha2": "SM",
+      "isoAlpha3": "SMR",
+      "names": [
+        {
+          "value": "Most Serene Republic of San Marino",
+          "normalized": "most serene republic of san marino",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "San Marino",
+          "normalized": "san marino",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "sm",
+          "normalized": "sm",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "SMR",
+          "normalized": "smr",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "most serene republic of san marino",
+        "san marino",
+        "sm",
+        "smr"
+      ]
+    },
+    {
+      "qid": "Q403",
+      "displayName": "Serbia",
+      "isoAlpha2": "RS",
+      "isoAlpha3": "SRB",
+      "names": [
+        {
+          "value": "Republic of Serbia",
+          "normalized": "republic of serbia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "RS",
+          "normalized": "rs",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Serbia",
+          "normalized": "serbia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "SRB",
+          "normalized": "srb",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "republic of serbia",
+        "rs",
+        "serbia",
+        "srb"
+      ]
+    },
+    {
+      "qid": "Q214",
+      "displayName": "Slovakia",
+      "isoAlpha2": "SK",
+      "isoAlpha3": "SVK",
+      "names": [
+        {
+          "value": "SK",
+          "normalized": "sk",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Slovak Republic",
+          "normalized": "slovak republic",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Slovakia",
+          "normalized": "slovakia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "SVK",
+          "normalized": "svk",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "sk",
+        "slovak republic",
+        "slovakia",
+        "svk"
+      ]
+    },
+    {
+      "qid": "Q215",
+      "displayName": "Slovenia",
+      "isoAlpha2": "SI",
+      "isoAlpha3": "SVN",
+      "names": [
+        {
+          "value": "Republic of Slovenia",
+          "normalized": "republic of slovenia",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "si",
+          "normalized": "si",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "slo",
+          "normalized": "slo",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Slovenia",
+          "normalized": "slovenia",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Slovenija",
+          "normalized": "slovenija",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "svn",
+          "normalized": "svn",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "republic of slovenia",
+        "si",
+        "slo",
+        "slovenia",
+        "slovenija",
+        "svn"
+      ]
+    },
+    {
+      "qid": "Q29",
+      "displayName": "Spain",
+      "isoAlpha2": "ES",
+      "isoAlpha3": "ESP",
+      "names": [
+        {
+          "value": "ES",
+          "normalized": "es",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "ESP",
+          "normalized": "esp",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Kingdom of Spain",
+          "normalized": "kingdom of spain",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Spain",
+          "normalized": "spain",
+          "kinds": [
+            "label",
+            "short_name"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "es",
+        "esp",
+        "kingdom of spain",
+        "spain"
+      ]
+    },
+    {
+      "qid": "Q34",
+      "displayName": "Sweden",
+      "isoAlpha2": "SE",
+      "isoAlpha3": "SWE",
+      "names": [
+        {
+          "value": "Kingdom of Sweden",
+          "normalized": "kingdom of sweden",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "se",
+          "normalized": "se",
+          "kinds": [
+            "alias",
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "SWE",
+          "normalized": "swe",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Sweden",
+          "normalized": "sweden",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Swedish Kingdom",
+          "normalized": "swedish kingdom",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "kingdom of sweden",
+        "se",
+        "swe",
+        "sweden",
+        "swedish kingdom"
+      ]
+    },
+    {
+      "qid": "Q39",
+      "displayName": "Switzerland",
+      "isoAlpha2": "CH",
+      "isoAlpha3": "CHE",
+      "names": [
+        {
+          "value": "CH",
+          "normalized": "ch",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "CHE",
+          "normalized": "che",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Confoederatio Helvetica",
+          "normalized": "confoederatio helvetica",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Swiss",
+          "normalized": "swiss",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Swiss Confederation",
+          "normalized": "swiss confederation",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        },
+        {
+          "value": "Switzerland",
+          "normalized": "switzerland",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ch",
+        "che",
+        "confoederatio helvetica",
+        "swiss",
+        "swiss confederation",
+        "switzerland"
+      ]
+    },
+    {
+      "qid": "Q43",
+      "displayName": "Turkey",
+      "isoAlpha2": "TR",
+      "isoAlpha3": "TUR",
+      "names": [
+        {
+          "value": "Republic of Turkey",
+          "normalized": "republic of turkey",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Republic of Türkiye",
+          "normalized": "republic of turkiye",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "TR",
+          "normalized": "tr",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "TUR",
+          "normalized": "tur",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Turkey",
+          "normalized": "turkey",
+          "kinds": [
+            "label"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "republic of turkey",
+        "republic of turkiye",
+        "tr",
+        "tur",
+        "turkey"
+      ]
+    },
+    {
+      "qid": "Q212",
+      "displayName": "Ukraine",
+      "isoAlpha2": "UA",
+      "isoAlpha3": "UKR",
+      "names": [
+        {
+          "value": "UA",
+          "normalized": "ua",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "Ukr.",
+          "normalized": "ukr",
+          "kinds": [
+            "alias",
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Ukraina",
+          "normalized": "ukraina",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Ukraine",
+          "normalized": "ukraine",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Ukrainia",
+          "normalized": "ukrainia",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "ua",
+        "ukr",
+        "ukraina",
+        "ukraine",
+        "ukrainia"
+      ]
+    },
+    {
+      "qid": "Q145",
+      "displayName": "United Kingdom",
+      "isoAlpha2": "GB",
+      "isoAlpha3": "GBR",
+      "names": [
+        {
+          "value": "Britain",
+          "normalized": "britain",
+          "kinds": [
+            "short_name"
+          ]
+        },
+        {
+          "value": "G B",
+          "normalized": "g b",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "GB",
+          "normalized": "gb",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "GBR",
+          "normalized": "gbr",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Great Britain",
+          "normalized": "great britain",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Great Britain and Northern Ireland",
+          "normalized": "great britain and northern ireland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "the UK",
+          "normalized": "the uk",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "the United Kingdom",
+          "normalized": "the united kingdom",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "the United Kingdom of Great Britain and Northern Ireland",
+          "normalized": "the united kingdom of great britain and northern ireland",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "U K",
+          "normalized": "u k",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "United Kingdom",
+          "normalized": "united kingdom",
+          "kinds": [
+            "label",
+            "short_name"
+          ]
+        },
+        {
+          "value": "United Kingdom of Great Britain and Northern Ireland",
+          "normalized": "united kingdom of great britain and northern ireland",
+          "kinds": [
+            "alias",
+            "official_name"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "britain",
+        "g b",
+        "gb",
+        "gbr",
+        "great britain",
+        "great britain and northern ireland",
+        "the uk",
+        "the united kingdom",
+        "the united kingdom of great britain and northern ireland",
+        "u k",
+        "united kingdom",
+        "united kingdom of great britain and northern ireland"
+      ]
+    },
+    {
+      "qid": "Q237",
+      "displayName": "Vatican City",
+      "isoAlpha2": "VA",
+      "isoAlpha3": "VAT",
+      "names": [
+        {
+          "value": "Città del Vaticano",
+          "normalized": "citta del vaticano",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Holy See",
+          "normalized": "holy see",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Papal State",
+          "normalized": "papal state",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "State of Vatican City",
+          "normalized": "state of vatican city",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Stato della Città del Vaticano",
+          "normalized": "stato della citta del vaticano",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Status Civitatis Vaticanae",
+          "normalized": "status civitatis vaticanae",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "The Vatican",
+          "normalized": "the vatican",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "VA",
+          "normalized": "va",
+          "kinds": [
+            "iso_alpha2"
+          ]
+        },
+        {
+          "value": "VAT",
+          "normalized": "vat",
+          "kinds": [
+            "iso_alpha3"
+          ]
+        },
+        {
+          "value": "Vatican",
+          "normalized": "vatican",
+          "kinds": [
+            "alias"
+          ]
+        },
+        {
+          "value": "Vatican City",
+          "normalized": "vatican city",
+          "kinds": [
+            "label"
+          ]
+        },
+        {
+          "value": "Vatican City State",
+          "normalized": "vatican city state",
+          "kinds": [
+            "alias"
+          ]
+        }
+      ],
+      "acceptedAnswers": [
+        "citta del vaticano",
+        "holy see",
+        "papal state",
+        "state of vatican city",
+        "stato della citta del vaticano",
+        "status civitatis vaticanae",
+        "the vatican",
+        "va",
+        "vat",
+        "vatican",
+        "vatican city",
+        "vatican city state"
+      ]
+    }
+  ],
+  "collisions": [
+    {
+      "answer": "poland",
+      "states": [
+        {
+          "qid": "Q36",
+          "displayName": "Poland"
+        },
+        {
+          "qid": "Q172107",
+          "displayName": "Polish–Lithuanian Commonwealth"
+        }
+      ]
+    }
+  ]
+}

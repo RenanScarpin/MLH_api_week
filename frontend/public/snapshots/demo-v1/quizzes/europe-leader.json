@@ -17,12 +17,23 @@
       "entityQid": "Q142",
       "sovereignQid": "Q142",
       "displayName": "France",
-      "acceptedAnswers": ["france", "french republic", "fra"],
-      "mapTargetIds": ["france"],
+      "acceptedAnswers": [
+        "fr",
+        "fra",
+        "france",
+        "french republic"
+      ],
+      "mapTargetIds": [
+        "france"
+      ],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          { "entityQid": "Q3052772", "displayName": "Emmanuel Macron", "imageId": "macron-fixture" }
+          {
+            "entityQid": "Q3052772",
+            "displayName": "Emmanuel Macron",
+            "imageId": "macron-fixture"
+          }
         ]
       }
     },
@@ -31,13 +42,29 @@
       "entityQid": "Q228",
       "sovereignQid": "Q228",
       "displayName": "Andorra",
-      "acceptedAnswers": ["andorra", "principality of andorra", "and"],
-      "mapTargetIds": ["andorra"],
+      "acceptedAnswers": [
+        "ad",
+        "and",
+        "andorra",
+        "principality of andorra",
+        "principality of the valleys of andorra"
+      ],
+      "mapTargetIds": [
+        "andorra"
+      ],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          { "entityQid": "Q3052772", "displayName": "Emmanuel Macron", "imageId": "macron-fixture" },
-          { "entityQid": "Q9990001", "displayName": "Josep-Lluís Serrano Pentinat", "imageId": "serrano-fixture" }
+          {
+            "entityQid": "Q3052772",
+            "displayName": "Emmanuel Macron",
+            "imageId": "macron-fixture"
+          },
+          {
+            "entityQid": "Q9990001",
+            "displayName": "Josep-Lluís Serrano Pentinat",
+            "imageId": "serrano-fixture"
+          }
         ]
       }
     },
@@ -46,12 +73,25 @@
       "entityQid": "Q39",
       "sovereignQid": "Q39",
       "displayName": "Switzerland",
-      "acceptedAnswers": ["switzerland", "swiss confederation", "che", "sui"],
-      "mapTargetIds": ["switzerland"],
+      "acceptedAnswers": [
+        "ch",
+        "che",
+        "confoederatio helvetica",
+        "swiss",
+        "swiss confederation",
+        "switzerland"
+      ],
+      "mapTargetIds": [
+        "switzerland"
+      ],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          { "entityQid": "Q30917", "displayName": "Swiss Federal Council", "imageId": null }
+          {
+            "entityQid": "Q30917",
+            "displayName": "Swiss Federal Council",
+            "imageId": null
+          }
         ]
       }
     },
@@ -60,12 +100,25 @@
       "entityQid": "Q183",
       "sovereignQid": "Q183",
       "displayName": "Germany",
-      "acceptedAnswers": ["germany", "federal republic of germany", "deu"],
-      "mapTargetIds": ["germany"],
+      "acceptedAnswers": [
+        "brd",
+        "de",
+        "deu",
+        "federal republic of germany",
+        "frg",
+        "germany"
+      ],
+      "mapTargetIds": [
+        "germany"
+      ],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          { "entityQid": "Q5196", "displayName": "Frank-Walter Steinmeier", "imageId": "steinmeier-fixture" }
+          {
+            "entityQid": "Q5196",
+            "displayName": "Frank-Walter Steinmeier",
+            "imageId": "steinmeier-fixture"
+          }
         ]
       }
     },
@@ -74,12 +127,24 @@
       "entityQid": "Q38",
       "sovereignQid": "Q38",
       "displayName": "Italy",
-      "acceptedAnswers": ["italy", "italian republic", "ita"],
-      "mapTargetIds": ["italy"],
+      "acceptedAnswers": [
+        "it",
+        "ita",
+        "italian republic",
+        "italy",
+        "republic of italy"
+      ],
+      "mapTargetIds": [
+        "italy"
+      ],
       "prompt": {
         "kind": "head_of_state",
         "heads": [
-          { "entityQid": "Q3956186", "displayName": "Sergio Mattarella", "imageId": "mattarella-fixture" }
+          {
+            "entityQid": "Q3956186",
+            "displayName": "Sergio Mattarella",
+            "imageId": "mattarella-fixture"
+          }
         ]
       }
     }

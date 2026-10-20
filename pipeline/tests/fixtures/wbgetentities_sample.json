@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "id": "Q30",
+      "labels": {"en": {"language": "en", "value": "United States"}},
+      "aliases": {
+        "en": [
+          {"language": "en", "value": "United States of America"},
+          {"language": "en", "value": "the US"},
+          {"language": "en", "value": "U.S.A."}
+        ]
+      },
+      "claims": {
+        "P1813": [
+          {
+            "rank": "normal",
+            "mainsnak": {
+              "snaktype": "value",
+              "datavalue": {"type": "monolingualtext", "value": {"language": "en", "text": "America"}}
+            }
+          },
+          {
+            "rank": "deprecated",
+            "mainsnak": {
+              "snaktype": "value",
+              "datavalue": {"type": "monolingualtext", "value": {"language": "en", "text": "Deprecated America"}}
+            }
+          }
+        ],
+        "P1448": [
+          {
+            "rank": "normal",
+            "mainsnak": {
+              "snaktype": "value",
+              "datavalue": {"type": "monolingualtext", "value": {"language": "en", "text": "United States of America"}}
+            }
+          }
+        ],
+        "P297": [
+          {
+            "rank": "normal",
+            "mainsnak": {"snaktype": "value", "datavalue": {"type": "string", "value": "US"}}
+          }
+        ],
+        "P298": [
+          {
+            "rank": "normal",
+            "mainsnak": {"snaktype": "value", "datavalue": {"type": "string", "value": "USA"}}
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q29999",
+      "labels": {"en": {"language": "en", "value": "Kingdom of the Netherlands"}},
+      "aliases": {
+        "en": [
+          {"language": "en", "value": "Netherlands"},
+          {"language": "en", "value": "the Netherlands"}
+        ]
+      },
+      "claims": {
+        "P1813": [],
+        "P1448": [
+          {
+            "rank": "normal",
+            "mainsnak": {
+              "snaktype": "value",
+              "datavalue": {"type": "monolingualtext", "value": {"language": "en", "text": "Kingdom of the Netherlands"}}
+            }
+          },
+          {
+            "rank": "normal",
+            "qualifiers": {
+              "P582": [
+                {"datavalue": {"type": "time", "value": {"time": "+2010-10-10T00:00:00Z"}}}
+              ]
+            },
+            "mainsnak": {
+              "snaktype": "value",
+              "datavalue": {"type": "monolingualtext", "value": {"language": "en", "text": "Old Kingdom Name"}}
+            }
+          }
+        ],
+        "P297": [
+          {
+            "rank": "normal",
+            "mainsnak": {"snaktype": "value", "datavalue": {"type": "string", "value": "NL"}}
+          }
+        ],
+        "P298": [
+          {
+            "rank": "normal",
+            "mainsnak": {"snaktype": "value", "datavalue": {"type": "string", "value": "NLD"}}
+          }
+        ]
+      }
+    }
+  ]
+}
