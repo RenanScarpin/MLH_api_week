@@ -7,7 +7,18 @@ EUROPE_CONTINENT_NAME = "Europe"
 # Explicit game-board viewport. Geometry is not modified; SVG rendering clips
 # portions outside this rectangle. This keeps transcontinental states from
 # stretching the board across Asia while still showing their European portion.
-EUROPE_VIEW_BBOX = [-32.0, 33.0, 61.0, 72.0]
+EUROPE_VIEWPORT = {
+    "west": -26.0,
+    "south": 34.0,
+    "east": 52.0,
+    "north": 72.0,
+}
+EUROPE_VIEW_BBOX = [
+    EUROPE_VIEWPORT["west"],
+    EUROPE_VIEWPORT["south"],
+    EUROPE_VIEWPORT["east"],
+    EUROPE_VIEWPORT["north"],
+]
 
 
 class GeometryResolutionError(RuntimeError):
@@ -301,6 +312,7 @@ def build_europe_geometry(
         "naturalEarthVersion": natural_earth_version,
         "map": {
             "type": "FeatureCollection",
+            "viewport": EUROPE_VIEWPORT,
             "bbox": EUROPE_VIEW_BBOX,
             "features": runtime_features,
         },

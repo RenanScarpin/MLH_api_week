@@ -13,6 +13,7 @@ The frontend is React + TypeScript + Vite and implements:
 - neutral named placeholders for missing portraits;
 - derived SVG map highlighting;
 - an explicit Europe viewport so transcontinental states do not stretch the board across Asia.
+- viewport metadata is carried in the generated map payload; Europe currently uses `26°W–52°E, 34°N–72°N`, which keeps Malta/Cyprus and the Caucasus visible while clipping most of Asia.
 
 The initial `demo-v1` fixture remains in the repository, but Stage 3 can now publish a new complete snapshot containing the **full real European leader set and real Natural Earth geometry**.
 

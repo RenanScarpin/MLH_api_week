@@ -2,10 +2,16 @@
   "naturalEarthVersion": "5.1.1",
   "map": {
     "type": "FeatureCollection",
+    "viewport": {
+      "west": -26.0,
+      "south": 10.0,
+      "east": 52.0,
+      "north": 72.0
+    },
     "bbox": [
-      -32.0,
-      33.0,
-      61.0,
+      -26.0,
+      10.0,
+      52.0,
       72.0
     ],
     "features": [

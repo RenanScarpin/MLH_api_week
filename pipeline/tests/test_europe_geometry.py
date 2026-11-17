@@ -108,7 +108,11 @@ class EuropeGeometryTests(unittest.TestCase):
         self.assertIn("ne-map-unit-13", ids)  # Turkey fallback despite NE continent=Asia
         self.assertIn("ne-map-unit-14", ids)
         self.assertNotIn("ne-map-unit-11", ids)  # French Guiana is not on Europe board
-        self.assertEqual(result["map"]["bbox"], [-32.0, 33.0, 61.0, 72.0])
+        self.assertEqual(result["map"]["bbox"], [-26.0, 34.0, 52.0, 72.0])
+        self.assertEqual(
+            result["map"]["viewport"],
+            {"west": -26.0, "south": 34.0, "east": 52.0, "north": 72.0},
+        )
 
         quiz = compile_full_europe_leader_quiz(leaders, result)
         france = next(subject for subject in quiz["subjects"] if subject["id"] == "Q142")

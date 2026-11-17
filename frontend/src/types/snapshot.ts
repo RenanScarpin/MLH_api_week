@@ -147,8 +147,18 @@ export interface QuizMapFeature {
   geometry: QuizMapGeometry;
 }
 
+export interface QuizMapViewport {
+  west: number;
+  south: number;
+  east: number;
+  north: number;
+}
+
 export interface QuizMapGeoJson {
   type: "FeatureCollection";
+  /** Explicit game-board viewport. Preferred over bbox when present. */
+  viewport?: QuizMapViewport;
+  /** GeoJSON-compatible fallback for older snapshots. */
   bbox?: [number, number, number, number];
   features: QuizMapFeature[];
 }

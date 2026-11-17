@@ -21,6 +21,15 @@ function pointsOfFeature(feature: QuizMapFeature): Position[] {
 }
 
 function calculateBounds(map: QuizMapGeoJson): Bounds {
+  if (map.viewport) {
+    return {
+      minX: map.viewport.west,
+      maxX: map.viewport.east,
+      minY: map.viewport.south,
+      maxY: map.viewport.north,
+    };
+  }
+
   if (map.bbox) {
     const [minX, minY, maxX, maxY] = map.bbox;
     return { minX, maxX, minY, maxY };

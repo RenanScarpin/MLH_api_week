@@ -1,0 +1,17 @@
+{
+  "snapshotId": "europe-leader-20261020T192403905360Z-ne5.1.1",
+  "generatedAt": "2026-10-20T19:50:18.059497Z",
+  "sources": {
+    "wikidataFetchedAt": "2026-10-20T19:24:03.905360Z",
+    "commonsFetchedAt": null,
+    "naturalEarthVersion": "5.1.1"
+  },
+  "answerNormalizationVersion": 1,
+  "quizzes": {
+    "europe-leader": "/snapshots/europe-leader-20261020T192403905360Z-ne5.1.1/quizzes/europe-leader.json"
+  },
+  "maps": {
+    "europe": "/snapshots/europe-leader-20261020T192403905360Z-ne5.1.1/maps/europe.geojson"
+  },
+  "images": "/snapshots/europe-leader-20261020T192403905360Z-ne5.1.1/assets/images.json"
+}

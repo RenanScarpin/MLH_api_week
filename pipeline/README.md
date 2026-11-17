@@ -75,7 +75,7 @@ For every leader-quiz-eligible Wikidata sovereign state:
 2. If Wikidata models the sovereign at a higher level than Natural Earth (for example a sovereign realm), use the state's ISO alpha-3 code to find its home Map Unit and climb to `SOV_A3`.
 3. Prefer all Map Units for that sovereignty whose Natural Earth `CONTINENT` is `Europe`.
 4. If Natural Earth classifies the transcontinental state elsewhere, use its primary Map Unit as a fallback.
-5. The frontend map has an explicit Europe viewport, so non-European portions of fallback geometries are simply outside the board rather than forcing a custom polygon source.
+5. The frontend map has an explicit Europe viewport, so non-European portions of fallback geometries are simply outside the board rather than forcing a custom polygon source. The generated map currently carries `viewport = {west: -26, south: 34, east: 52, north: 72}` (and the same values as GeoJSON `bbox`) so Malta, Cyprus, Georgia, and Azerbaijan remain visible while most of Asia stays clipped.
 
 The command prints exactly which states needed hierarchy resolution and which needed the primary-map-unit regional fallback.
 
